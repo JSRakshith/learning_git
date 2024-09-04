@@ -11,3 +11,6 @@ git branch [branchname] - to create a branch
 git checkout [branchname] - to switch to the branch we want.
 git clone [https link of the repo to be cloned] - to create a copy of remote git repository on local machine.
 git checkout -b [branchname] - creates a new branch and switches to that branch.
+flow for avoiding conflicts:
+git checkout master > git pull > git checkout -b [branchname] > git add . > git commits > git checkout master > git pull >
+git branch [branchname] > git rebase master > git push -u origin jsrsk_1
