@@ -9,3 +9,5 @@ git status - to see the changes made.
 git add . - track and add all the files which are untracked (i.e, made changes, has U symbol and not pushed)
 git branch [branchname] - to create a branch
 git checkout [branchname] - to switch to the branch we want.
+git clone [https link of the repo to be cloned] - to create a copy of remote git repository on local machine.
+git checkout -b [branchname] - creates a new branch and switches to that branch.
