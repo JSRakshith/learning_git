@@ -7,3 +7,5 @@ git remote add origin https://github.com/JSRakshith/learning_git.git - to tell w
 git push -u origin master - to push the code/file/changes
 git status - to see the changes made.
 git add . - track and add all the files which are untracked (i.e, made changes, has U symbol and not pushed)
+git branch [branchname] - to create a branch
+git checkout [branchname] - to switch to the branch we want.
