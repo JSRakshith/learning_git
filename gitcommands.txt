@@ -1,0 +1,9 @@
+1. echo "content" >> README.md  - for creating README file
+2. git init - initializes empty git repository in current directory
+git add README.md (where README.md is the filename you want to add) - to add it to staging area so that it can be pushed to git repository from local machine.
+git commit -m "first commit"
+git branch - to check the branch we are in.
+git remote add origin https://github.com/JSRakshith/learning_git.git - to tell which repo we want to push the code/file/changes.
+git push -u origin master - to push the code/file/changes
+git status - to see the changes made.
+git add . - track and add all the files which are untracked (i.e, made changes, has U symbol and not pushed)
